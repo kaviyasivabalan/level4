@@ -1,0 +1,10 @@
+print("SUM OF N NUMBER")
+print("---------------")
+m1=int(input("Enter the starting number:"))
+m2=int(input("Enter the ending number:"))
+print("Result")
+total=0
+for i in range (m1,m2+1):
+    print("+",i,end=" ")
+    total +=i
+print("Sum of values:",total)
